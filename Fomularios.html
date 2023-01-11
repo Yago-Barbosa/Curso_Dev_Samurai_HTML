@@ -1,0 +1,70 @@
+<!--
+    Formularios: Form
+
+    - Inputs
+       - Texto: Text
+       - Email: Email
+       - Numeros: Number
+       - Telefones: Tel
+    - Select
+    - Radio
+    - Submit
+    - Reset
+-->
+
+<form action="">
+    <label for="dado">Nome</label >
+    <input type="text" name="dado" id="dado" required>
+
+    <br>
+
+    <label for="name">Email</label >
+    <input type="email" name="Email" id="Email" required>
+
+    <br>
+
+    <label for="idade">Idade</label>
+    <input type="Number" name="idade" id="idade" min="" max="100">
+
+    <br>
+
+    <label for="Celular">Celular</label>
+    <input type="tel" name="celular" id="celular">
+
+    <br>
+
+    <label for="genero">Gênero</label>
+    <select name="genero" id="genero">
+        <option value="">Selecione</option>
+        <optgroup label="Generos">
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+            <option value="NA">Nao Informar</option>
+        </optgroup>
+    </select>
+
+    <br><br>
+
+    <label for="favorita">Qual a sua linguagem Favorita?</label>
+    <br>
+
+    <input type="radio" name= "favorita" id="favorita-1" 
+    value="Javascript" required>
+    <label for="Javascript">Javascript</label>
+
+    <input type="radio" name="favorita" id="favorita-2"
+    value="Python" required>
+    <label for="Python">Python</label>
+
+    <br></br>
+
+    <input type="checkbox" name="aceito" id="aceito" required>
+    <label for="aceito"> Aceito os termos de uso</label>
+
+    <br><br>
+
+    <input type="submit"Enviar>
+
+    <input type="reset">
+
+</form>
